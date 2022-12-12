@@ -1,0 +1,426 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "assalamualaikum",
+        "bestie",
+        "kawan",
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+         "Hai, Info tentang piala dunia disini tempatnya",
+         "Hai Kamu! Mau tau informasi tentang apa nih?",
+         "Halo salam kenal ya! pasti mau tau tentang piala dunia kan?",
+         "Hai! pasti kepo tentang piala dunia ya?"
+       
+      ]
+    },
+ {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "Byee",
+        "Bai",
+        "Dah",
+        "Dadah",
+        "Wassalamualaikum",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Waalaikumsalam",
+        "Have A Nice Day",
+        "Semoga infonya membantu ya,Sampai jumpa lagi!",
+        "Bye,Senang bisa bantu kamu"
+      ]
+    },
+ {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Shukran",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati bisa membantu:)",
+        "Oke,Sama-Sama",
+        "Oke,jangan ragu ya kalau mau nanya lagi",
+        "bye,pasti pengetahuan kamu jadi makin banyak kan hehe"
+      ]
+    },
+  {
+    "tag":"piala_dunia_pertama",
+    "patterns": [
+      "Siapa juara piala dunia pertama?"
+    ],
+    "responses": [
+      "Uruguay"
+    ]
+  },
+  {
+    "tag":"sering_juara",
+    "patterns": [
+      "Negara mana yang paling sering juara piala dunia?"
+    ],
+    "responses": [
+      "Brasil"
+    ]
+  },
+  {
+    "tag":"gol_tangan_tuhan",
+    "patterns": [
+      "Di Piala Dunia mana Diego Maradona mencetak gol tangan tuhan?"
+    ],
+    "responses": [
+      "Meksiko 1986"
+    ]
+  },
+  {
+    "tag":"pencetak_gol_terbanyak",
+    "patterns": [
+      "Siapa pencetak gol terbanyak sepanjang sejarah piala dunia?"
+    ],
+    "responses": [
+      "Miroslav Klose(16 gol)"
+    ]
+  },
+  {
+    "tag":"insiden_piala_dunia",
+    "patterns": [
+      "Kapan kejadian Zidane menanduk Materazzi? "
+    ],
+    "responses": [
+      "Final Piala Dunia 2006"
+    ]
+  },
+   {
+    "tag":"jadwal",
+    "patterns": [
+      "Kapan piala dunia Qatar diselenggarakan?"
+    ],
+    "responses": [
+      "20 November hingga 18 Desember 2022 "
+    ]
+  },
+   {
+    "tag":"piala_dunia_selanjutnya",
+    "patterns": [
+      "Dimana piala dunia 2026 diadakan?"
+    ],
+    "responses": [
+      "tiga negara Amerika Utara: Kanada, Meksiko, dan Amerika Serikat"
+    ]
+  },
+   {
+    "tag":"sejarah",
+    "patterns": [
+      "Sejarah piala dunia sepakbola?"
+    ],
+    "responses": [
+      "Piala Dunia FIFA pertama kali diselenggarakan pada tahun 1930, ketika presiden FIFA Jules Rimet memutuskan untuk menggelar turnamen sepak bola internasional. Piala Dunia pertama, diselenggarakan di Uruguay pada 1930, diperebutkan sebagai final turnamen yang hanya terdiri dari 13 tim yang diundang oleh organisasi. Sejak saat itu, Piala Dunia FIFA telah mengalami ekspansi secara berturut-turut dan format yang dibuat ulang untuk saat ini 32 tim final turnamen diawali oleh proses kualifikasi dua tahun, yang melibatkan hampir 200 tim dari seluruh dunia."
+    ]
+  },
+ {
+    "tag":"penonton_terbanyak",
+    "patterns": [
+      "rekor penonton terbanyak piala dunia"
+    ],
+    "responses": [
+      "Tercatat, Rekor tertinggi dengan penonton Piala Dunia terbanyak jatuh pada final Piala Dunia 1950 Brasil. Kala itu Brasil dan Uruguay bertanding di Stadion Maracana. Sekitar 173.850 penonton hadir menonton pertandingan ini."
+    ]
+  },
+   {
+    "tag":"gelar_pemain_terbanyak",
+    "patterns": [
+      "siapa pemain dengan gelar piala dunia terbanyak?"
+    ],
+    "responses": [
+      "Pele menjadi pemain paling ikonik karena dapat memboyong pulang 3 gelar dalam Piala Dunia. Dirinya berhasil memenangkan turnamen pada tahun 1958, 1962, dan 1970."
+    ]
+  },
+   {
+    "tag":"pemenang_piala_dunia",
+    "patterns": [
+      "Negara pemenang piala dunia 3 tahun terakhir?"
+    ],
+    "responses": [
+      "Spanyol(2010),Jerman(2014),Prancis(2018)"
+    ]
+  },
+ {
+    "tag":"piala_dunia_setiap_empat_tahun",
+    "patterns": [
+      "Kenapa piala dunia diadakan setiap empat tahun sekali?"
+    ],
+    "responses": [
+      "Proses kualifikasi yang panjang,saat ini FIFA memiliki anggota 211 negara di dunia. Untuk mendapatkan 32 tim terbaik FIFA harus melakukan kualifikasi.Oleh karena itu, proses mencari 32 tim terbaik dari 211 tim nasional memakan banyak waktu dan energi, sehingga tidak heran kenapa Piala Dunia dilaksanakan setiap 4 tahun sekali."
+    ]
+  },
+   {
+    "tag":"nama_belakang_baju",
+    "patterns": [
+      "Negara apa yang pertama kali memakai nama mereka di Final?"
+    ],
+    "responses": [
+      "England"
+    ]
+  },
+   {
+    "tag":"juara_piala_dunia_putraputri",
+    "patterns": [
+      "Negara apa yang memenangkan piala dunia putra dan putri?"
+    ],
+    "responses": [
+      "Jerman"
+    ]
+  },
+   {
+    "tag":"sering_kalah_final",
+    "patterns": [
+      "Negara mana yang paling sering kalah di Final Piala Dunia?"
+    ],
+    "responses": [
+      "Jerman"
+    ]
+  },
+   {
+    "tag":"sejarah_pemain_tertua",
+    "patterns": [
+      "Siapa pemain tertua yang pernah bermain di piala dunia?"
+    ],
+    "responses": [
+      " Essam El-Hadary(43 tahun)"
+    ]
+  },
+  {
+    "tag":"sejarah_pemain_termuda",
+    "patterns": [
+      "Siapa pemain termuda yang pernah bermain di piala dunia?"
+    ],
+    "responses": [
+      "Norman Whiteside(17 tahun 40 hari)"
+    ]
+  },
+   {
+    "tag":"paling_banyak_main_pialadunia",
+    "patterns": [
+      "Siapa pemain yang paling banyak penampilan di piala dunia?"
+    ],
+    "responses": [
+      "Lothar Matthaeus Jerman 25 penampilan"
+    ]
+  },
+   {
+    "tag":"maskot",
+    "patterns": [
+      "apa maskot piala dunia Qatar 2022?"
+    ],
+    "responses": [
+      "Maskot resmi Piala Dunia 2022 bernama La’eeb yang berbentuk seperti penutup kepala orang-orang timur tengah. Menurut situs resmi FIFA, La'eeb dalam bahasa Arab berarti pemain dengan kemampuan super. La'eeb sendiri menurut FIFA adalah benda yang tidak bisa dijelaskan sehingga para fans sepakbola bisa menginterpretasikan sesuai kemauan mereka.La'eeb digambar mengenalkan semangat bermain, menyebarkan kegembiraan dan kepercayaan diri. Karakter ini diharapkan bisa membakar semangat pemain dan sukacita fans."
+    ]
+  },
+   {
+    "tag":"bola",
+    "patterns": [
+      "apa nama boa piala dunia Qatar 2022?"
+    ],
+    "responses": [
+      "bola resmi Piala Dunia 2022 diberi nama Al Rihla. Ini adalah bola ke-14 berturut-turut yang dibuat Adidas untuk turnamen terbesar di dunia. Rihla merupakan kata dari Bahasa Arab yang berarti perjalanan. Makna kata tersebut mempresentasikan perjalanan Piala Dunia bersama Al Rihla di seluruh dunia.Al Rihla adalah bola Piala Dunia pertama yang dibuat secara eksklusif dengan tinta dan lem berbahan dasar air."
+    ]
+  },
+   {
+    "tag":"stadion",
+    "patterns": [
+      "apa saja nama stadion yang digunakan dalam piala tahun ini?"
+    ],
+    "responses": [
+      "Al-Janoub Stadium,Al-Thumama Stadium,974 Stadium,Internasional Khalifa Stadium,Ahmed bin Ali Stadium,Education City Stadium,Al-Bayt Stadium,Lusail Iconic Stadium"
+    ]
+  },
+   {
+    "tag":"grup_A",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup A piala dunia Qatar?"
+    ],
+    "responses": [
+      "Qatar,Ekuador,Senegal,Belanda"
+    ]
+  },
+  {
+    "tag":"grup_B",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup B piala dunia Qatar?"
+    ],
+    "responses": [
+      "Inggris,Iran,Amerika Serikat,Wales"
+    ]
+  },
+  {
+    "tag":"grup_C",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup C piala dunia Qatar?"
+    ],
+    "responses": [
+      "Argentina,Arab Saudi,Meksiko,Polandia"
+    ]
+  },
+  {
+    "tag":"grup_D",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup D piala dunia Qatar?"
+    ],
+    "responses": [
+      "Prancis,Austria,Denmark,Tunisia"
+    ]
+  },
+  {
+    "tag":"grup_E",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup E piala dunia Qatar?"
+    ],
+    "responses": [
+      "Spanyol,Kosta Rika,Jerman,Jepang"
+    ]
+  },
+  {
+    "tag":"grup_F",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup F piala dunia Qatar?"
+    ],
+    "responses": [
+      "Belgia,Kanada,Maroko,Kroasia"
+    ]
+  },
+  {
+    "tag":"grup_G",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup G piala dunia Qatar?"
+    ],
+    "responses": [
+      "Brazil,Serbia,Swiss,Kamerun"
+    ]
+  },
+  {
+    "tag":"grup_H",
+    "patterns": [
+      "Negara mana yang tergabung dalam grup H piala dunia Qatar?"
+    ],
+    "responses": [
+      "Portugal,Ghana,Uruguay,Korea Selatan"
+    ]
+  },
+   {
+    "tag":"cara_jadi_tuanrumah",
+    "patterns": [
+      "bagaimana cara terpilih menjadi tuan rumah piala dunia?"
+    ],
+    "responses": [
+      "Negara-negara yang tertarik menjadi tuan rumah Piala Dunia harus terlebih dahulu mengajukan diri. Mereka harus menjelaskan mengapa layak dan pantas menjadi lokasi yang sempurna.Para peserta juga menyertakan rencana untuk stadion, transportasi dan akomodasi untuk para penggemar. Negara tuan rumah memiliki harapan minimum untuk memenuhi syarat dan jika mereka memenuhinya, pemungutan suara kemudian diberikan untuk menentukan tuan rumah berikutnya."
+    ]
+  },
+   {
+    "tag":"daftar_tuanrumah",
+    "patterns": [
+      "Negara yang pernah menjadi tuan rumah piala dunia?"
+    ],
+    "responses": [
+      "Uruguay(1930),Italia(1934),Prancis(1938),Brazil(1950),Swiss(1954),Swedia(1958),Chile(1962),Inggris(1966),Meksiko(1970),Jerman Barat(1974),Argentina(1978),Spanyol(1982),Meksiko(1986),Italia(1990),Amerika Serikat(1994),Prancis(1998),Korea Selatan/Jepang(2002),Jerman(2006),Afrika Selatan(2010),Brazil(2014),Rusia(2018),Qatar(2022)"
+    ]
+  },
+   {
+    "tag":"daftar_juara",
+    "patterns": [
+      "Negara yang pernah memenangkan piala dunia?"
+    ],
+    "responses": [
+      "Uruguay(1930),Italia(1934;1938),Uruguay(1950),Jerman Barat(1954),Brasil(1958;1962),Inggris(1966),Brasil(1970),Jerman Barat(1974),Argentina(1978),Italia(1982),Argentina(1986),Jerman Barat(1990),Brasil(1994),Prancis(1998),Brasil(2002),Italia(2006),Spanyol(2010),Jerman(2014),Prancis(2018)"
+    ]
+  },
+{
+    "tag":"skuad_termahal",
+    "patterns": [
+      "sebutkan 5 skuad timnas termahal di piala dunia 2022"
+    ],
+    "responses": [
+      "1.Inggris: 940 juta poundsterling/Rp17.68 T, 2.Prancis: 873.4 juta poundsterling/Rp16.42 T, 3.Brasil: 751.4 juta poundsterling/Rp14.12 T, 4.Spanyol: 705 juta poundsterling/Rp13.26 T, 5.Portugal: 672 juta poundsterling/Rp12.63 T"
+    ]
+  },
+  {
+    "tag":"golden_ball",
+    "patterns": [
+      "peraih golden ball dalam lima piala dunia terakhir?"
+    ],
+    "responses": [
+      "Oliver Kahn-2002, Zinedine Zidane-2006, Diego Forlan-2010, Lionel Messi-2014,Luka Modric-2018"
+    ]
+  },
+  {
+    "tag":"pelatih_yang_juara",
+    "patterns": [
+      "pelatih yang menjadi juara dalam lima piala dunia terakhir?"
+    ],
+    "responses": [
+      "Luiz Felipe Scolari-2002, Marcello Lippi-2006, Vicente del Bosque-2010, Joachim Loew-Jerman, Didier Deschamps-2018"
+    ]
+  },
+  {
+    "tag":"var",
+    "patterns":[
+      "apa itu var?"
+    ],
+    "responses":[
+      "Video Assistant Referee(VAR) adalah prosedur bantuan teknologi untuk membantu asisten wasit meninjau tayangan ulang sebuah insiden dalam permainan sepak bola, sebagai bahan pertimbangan untuk wasit utama.VAR diperkenalkan ke sepak bola pada tahun 2018 untuk membantu wasit meninjau keputusan untuk gol, kartu merah, penalti, dan offside"
+    ]
+  },
+  {
+    "tag":"teknologi_canggih",
+    "patterns":[
+      "apa saja teknologi canggih dalam piala dunia 2022?"
+    ],
+    "responses":[
+      "teknologi pendingin stadion,bola piala dunia yang revolusioner,teknologi offside semi otomatis,aplikasi NavBuddy yang berfungsi sebagai navigator para pengunjung piala dunia,Bonocle dan Feelix Palm yang merupakan sebuah produk untuk tunanetra agar dapat mengakses dan menikmati piala dunia"
+    ]
+  },
+  {
+    "tag":"pemain_termuda_tertua_sekarang",
+    "patterns":[
+      "siapa pemain termuda dan tertua dalam piala dunia Qatar?"
+    ],
+    "responses":[
+      "Jerman Youssoufa Moukoko berusia 18 tahun dan Alfredo Talavera berusia 40 tahun"
+    ]
+  },
+  {
+    "tag":"pemain_sering_tampil",
+    "patterns":[
+      "siapa saja pemain selalu tampil dalam lima piala dunia terakhir?"
+    ],
+    "responses":[
+      "Cristiano Ronaldo,Lionel Messi,Lothar Matthaeus,Antonio Carbajal,Gianluigi Buffon"
+    ]
+  }
+ ]
+}
